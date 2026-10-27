@@ -1,0 +1,23 @@
+h1{
+        font: bold 1.8em Georgia, Arial;
+}
+h2{
+    font: bold 1.5em Georgia, Arial;
+}
+h3{
+    font: bold 1.4em Georgia, Arial;
+}
+
+p{
+    font: bold 1.2em "Times New Roman";
+}
+
+.styleRed{
+    color: red;
+}
+.styleGreen{
+    color: green;
+}
+.styleBlue{
+    color: blue;
+}
