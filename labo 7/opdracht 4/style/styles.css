@@ -1,0 +1,110 @@
+
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: black;
+    margin: 0;
+}
+
+/* header */
+header {
+    background-color: #263849;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* main */
+main {
+    width: 85%;
+    margin: auto;
+}
+
+
+/* sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+/* titels */
+h2 {
+    color: #263849;
+}
+
+h3 {
+    color: #555555;
+}
+
+/* images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* links */
+a {
+    color: #176b87;
+}
+
+a:hover {
+    color: red;
+}
+
+/* opsommingen */
+li {
+    margin-bottom: 8px;
+}
+
+/* Tabellen */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 25px;
+    text-align: left;
+}
+
+/* Tabelhoofding */
+th {
+    background-color: #263849;
+    color: white;
+    padding: 12px;
+}
+
+/* Tabelcellen */
+td {
+    padding: 10px;
+    border: 1px solid #263849;
+}
+
+/* Afwisselende rijen */
+tr.alt {
+    background-color: #e6eee9;
+}
+
+/* Onbekende gegevens */
+td.onbekend {
+    background-color: red;
+    color: white;
+}
+
+/* Onbekende gegevens in even rijen */
+tr.alt td.onbekend {
+    background-color: red;
+    color: white;
+}
+
+/* Voettekst */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #263849;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 15px;
+}

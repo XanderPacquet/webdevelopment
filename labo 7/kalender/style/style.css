@@ -1,0 +1,44 @@
+
+/* Algemene tabel */
+.kalender {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+/* Alle cellen */
+.kalender th,
+.kalender td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Maandhoofding */
+.maand {
+    background-color: rgb(170,170,200);
+    color: black;
+}
+
+/* Dagenhoofding */
+.dagen {
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+
+
+/* Weekend: zondag en zaterdag */
+.kalender tbody td:first-child,
+.kalender tbody td:last-child {
+    background-color: rgb(255,220,220);
+}
+
+.kalender > tbody > tr > td.feestdag {
+    background-color: rgb(250,120,120);
+}
+
+.kalender > tbody > tr > td.vorige,
+.kalender > tbody > tr > td.volgende {
+    background-color: lightgrey; /* Grijze kleur voor vorige/volgende maand */
+}
+
